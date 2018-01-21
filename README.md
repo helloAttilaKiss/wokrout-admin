@@ -22,6 +22,11 @@ Technologies
 - Save on each mutation (ajax calls to RESTful json API, when users adds/removes an exercise to a
 day, changes the name of a day etc)
 
+# Demo
+https://workout-admin.coding-you.com
+User name: workout
+Password: 6543210
+
 # Installing
 Add database
 - Install the database using db_dump.php
