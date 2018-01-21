@@ -21,3 +21,16 @@ Technologies
 - jQuery
 - Save on each mutation (ajax calls to RESTful json API, when users adds/removes an exercise to a
 day, changes the name of a day etc)
+
+# Installing
+Add database
+- Install the database using db_dump.php
+
+Edit config.php
+- Add full path of your directory
+- Enter the URL of the website
+- Enter database creditentials
+- Add SMTP if needed 
+
+Edit .htaccess
+- Change URL in the 9th row
