@@ -8,7 +8,7 @@ setlocale(LC_ALL, 'hu_HU.utf8');
 //DEFAULT FULL DIRECTORY PATH (include the trailing /)
 define('DIR_ROOT', '/home/helloattilakiss/websites/workout-admin/');
 //DEFAULT WEB ROOT (exclude the trailing /)
-define("WEB_ROOT", "https://virtuagym.coding-you.com");
+define("WEB_ROOT", "https://worrkout-admin.coding-you.com");
 //DATABASE CREDITENTIALS
 define('DB_HOSTNAME', 'localhost');
 define('DB_USERNAME', '');
