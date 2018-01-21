@@ -1,0 +1,20 @@
+IndexIgnore *
+RewriteEngine on
+
+Options -Indexes
+
+RewriteBase /
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^(.*)$ https://virtuagym.coding-you.com/$1 [R=301,L]
+
+#if file/dir/... is missing
+#missing favicon
+RewriteCond %{REQUEST_FILENAME} !favicon.ico [NC]
+#missing file
+RewriteCond %{REQUEST_FILENAME} !-f
+#missing directory
+RewriteCond %{REQUEST_FILENAME} !-d
+#header
+RewriteRule ^([^?]*)$ index.php?url1=$1 [NC,L,QSA]
+#RewriteRule ^([^?]*)$ 404.php [NC,L,QSA]

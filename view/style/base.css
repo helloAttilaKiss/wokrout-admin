@@ -1,0 +1,48 @@
+.small-box .icon {
+    font-size: 86px;
+}
+.small-box:hover .icon {
+    font-size: 90px;
+}
+.box-header{
+    padding: 13px;
+}
+#message-container{
+    position: fixed;
+    right: 0;
+    top: 10px;
+    width: 400px;
+    max-width: 80%;
+    z-index: 9999;
+}
+.day-box-body-scroll{
+    height: 120px;
+}
+.day-box-body .btn{
+    width: 100%;
+    display: block;
+}
+.handle{
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    position: relative;
+    top: 1px;
+    cursor: move;
+}
+.box-header .box-title{
+    max-width: 85%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.content-wrapper.content-wrapper-404{
+    background-color: #e1f5ff;
+}
+.align-center{
+    text-align: center;
+}
+.image-404{
+    width: 80%;
+    max-width: 300px;
+}
