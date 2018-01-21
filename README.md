@@ -1,4 +1,4 @@
-# wokrout-admin
+# workout-admin
 In this webpage you can
 - Create
 - Load
